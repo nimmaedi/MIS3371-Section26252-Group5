@@ -28,3 +28,17 @@ An employee submits a request to swap an assigned shift with another qualified e
 - [User Stories and Acceptance Criteria](docs/user-stories-acceptance.docx)
 - [Business Rules and States](docs/business-rules-and-states.docx)
 - [Team Charter](docs/team-charter.docx)
+
+## Week 3 Design Checkpoint
+
+### Week 3 Responsibilities
+
+- **Luis Alvarez:** Transaction Workflow and State-Transition Diagrams
+- **Jasmine Oden:** State Definitions and Data Dictionary
+- **Emmanuella Edi:** Three-Tier Architecture and Tier Responsibilities
+- **Allie Johnson:** Exception/Failure Path
+
+### Week 3 Documents
+
+- [Three-Tier Architecture](docs/three-tier-architecture.docx)
+- [Tier Responsibilities](docs/tier-responsibilities.docx)
