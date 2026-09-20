@@ -40,5 +40,7 @@ An employee submits a request to swap an assigned shift with another qualified e
 
 ### Week 3 Documents
 
+- [State Definitions](docs/state-definitions.docx)
+- [Data Dictionary](docs/data-dictionary.docx)
 - [Three-Tier Architecture](docs/three-tier-architecture.docx)
 - [Tier Responsibilities](docs/tier-responsibilities.docx)
