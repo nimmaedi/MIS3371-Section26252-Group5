@@ -13,7 +13,7 @@
 
     <header>
         <h1>Employee Shift-Swap System</h1>
-        <p>Submit a request to exchange your scheduled shift with another eligible employee</p>
+        <p>Submit a request to exchange your scheduled shift with another eligible employee.</p>
     </header>
 
     <main>
@@ -28,11 +28,103 @@
 
         <section>
             <h2>Shift-Swap Request</h2>
+<form method="post">
+    <fieldset>
+        <legend>Employee Information</legend>
+
+        <p>
+            <label for="requester_employee_id">
+                Requesting Employee ID
+            </label>
+            <br>
+            <input
+                type="text"
+                id="requester_employee_id"
+                name="requester_employee_id"
+                required
+            >
+        </p>
+
+        <p>
+            <label for="target_employee_id">
+                Receiving Employee ID
+            </label>
+            <br>
+            <input
+                type="text"
+                id="target_employee_id"
+                name="target_employee_id"
+                required
+            >
+        </p>
+    </fieldset>
+<fieldset>
+    <legend>Scheduled Shift Information</legend>
+
+    <p>
+        <label for="requester_shift_start">
+            Requester Shift Start
+        </label>
+        <br>
+        <input
+            type="datetime-local"
+            id="requester_shift_start"
+            name="requester_shift_start"
+            required
+        >
+    </p>
+
+    <p>
+        <label for="requester_shift_end">
+            Requester Shift End
+        </label>
+        <br>
+        <input
+            type="datetime-local"
+            id="requester_shift_end"
+            name="requester_shift_end"
+            required
+        >
+    </p>
+
+    <p>
+        <label for="target_shift_start">
+            Receiving Employee Shift Start
+        </label>
+        <br>
+        <input
+            type="datetime-local"
+            id="target_shift_start"
+            name="target_shift_start"
+            required
+        >
+    </p>
+
+    <p>
+        <label for="target_shift_end">
+            Receiving Employee Shift End
+        </label>
+        <br>
+        <input
+            type="datetime-local"
+            id="target_shift_end"
+            name="target_shift_end"
+            required
+        >
+    </p>
+</fieldset>
+<p>
+    <button type="submit">
+        Submit Shift-Swap Request
+    </button>
+</p>
+</form>
         </section>
 
     </main>
 
     <footer>
-        <p>MIS 3371 - Emplyee Shift-Swap System</p>
+        <p>MIS 3371 - Employee Shift-Swap System</p>
     </footer>
 </body>
+</html>
