@@ -1,1 +1,93 @@
 /* Week 5 styles for the Employee Shift-Swap System */
+<style>
+/* Page */
+.swap-page {
+  min-height : 100vh;
+  padding: 2rem;
+  background: #f5f7fa;
+  color : #1f2937;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/*Main container */
+.swap-container
+width: min(100%, 720px);
+margin: 0 auto;
+padding: 2rem;
+background: #fff;
+border: 1px solid #e5e7eb;
+border-radius: 12px; 
+box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Header */ 
+.swap.header {
+  margin-bottom: 1.5rem;
+}
+
+.swap.title {
+  margin: 0 0 0.5rem;
+  line-height: 1.25;
+  color: #111827;
+}
+
+.swap-description {
+  margin: 0;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* Form layout */
+.swap-form {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.swap-field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.swap-label {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.swap-input,
+.swap-select,
+.swap-textarea {
+  width: 100%,
+    box-sizing: border-box;
+    padding: 0.7rem 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: #fff;
+    color: #111827;
+    font: inherit;
+}
+
+.swap-input:focus,
+.swap-select:focus,
+.swap-textarea:focus {
+  outline: 2px solid #93c5fd;
+  outline-offset: 1px;
+  border-color: #2563eb;
+}
+
+.swap-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Two-column field groups */
+.swap-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+
+  
+
+
