@@ -86,8 +86,56 @@ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
+/*[ Task 2 Headings*/
+h1 {
+  margin-bottom: 0.5rem;
+  color: #003d2cfa;
+}
 
+ h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #003d2cfa;
+  font-weight: 700;
+  border-bottom: 2px solid #2f5d50
+  padding-bottom: 0.25rem;
+  }
 
-  
+/* Task 2 Fieldsets */
+fieldset {
+margin-bottom: 1.5rem;
+padding: 1.25rem;
+border:1px solid #6c6868;
+border-radius: 8px;
+background-color: #e8eeea;
+}
 
+/* Task 2 labels */
+label {
+  display: inline-block;
+  margin-bottom: 1.4rem;
+  font-weight: 600;
+  color: #181717;
+}
 
+/* Task 2 inputs and selects */
+input,
+select {
+  width:100%;
+  box-sizing: border-box;
+  padding: 0.65rem 1.75rem;
+  border: apx solid #d1d5db;
+  border-radius: 8px;
+  font: inherit;
+}
+
+/* End of Task 2 form spacing */
+form p {
+
+  margin-bottom: 1rem;
+}
+
+.form-group {
+
+  margin-bottom: 1rem;
+}
