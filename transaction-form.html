@@ -10,13 +10,12 @@
 
 </head>
 
-<body>
-<body class="page">
-    <main class="container">
-        
-    <header>
-        <h1 class="page-title">Employee Shift-Swap System</h1>
-        <p class="page-descrption">
+<body class="swap-page">
+    <div class="swap-container">
+
+    <header class="swap-header">
+        <h1 class="swap-title">Employee Shift-Swap System</h1>
+        <p class="swap-description">
             Submit a request to exchange your scheduled shift with another eligible employee.
         </p>
     </header>
@@ -36,28 +35,6 @@
 <form method="post">
     <fieldset>
         <legend>Employee Information</legend>
-        <div class="form-group">
-            <label class="form-label" for="employee">
-                Employee to swap with
-                <span class="required" aria-hidden="true">*</span>
-            </label>
-
-            <select
-                class=form-select"
-                id="employee"
-                name="employee"
-                required
-            >
-                <option value="">Select an employee</option>
-                <option value="employee-1">Sarah Jones</option>
-                <option value="employee-2">Brandon Scott</option>
-                <option value="employee-3">Traci Stevens</option>
-            </select>
-
-            <span class="form-hint">
-                Select an employee who is available to exchange shifts.
-            </span>
-        </div>
         
         <p>
             <label class="form-label" for="requester_employee_id">
@@ -69,8 +46,7 @@
                 id="requester_employee_id"
                 name="requester_employee_id"
                 required
-            ></textarea>
-    </div>
+            >
         </p>
 
         <p>
@@ -154,5 +130,6 @@
     <footer>
         <p>MIS 3371 - Employee Shift-Swap System</p>
     </footer>
+    </div>
 </body>
 </html>
